@@ -1,0 +1,112 @@
+/* Header Layout and Styling */
+
+#headerwrap {
+	background: url(../assets/images/back.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#headerwrap h4 {
+	font-weight: 400;
+	color: #ffffff
+}
+
+/* Container CSS */
+
+@media (min-width: 1200px)
+bootstrap.min.css?ver=3.2.0:5
+.container {
+    width: 1170px;
+}
+
+@media (min-width: 992px)
+bootstrap.min.css?ver=3.2.0:5
+.container {
+    width: 970px;
+}
+@media (min-width: 768px)
+bootstrap.min.css?ver=3.2.0:5
+.container {
+    width: 750px;
+}
+bootstrap.min.css?ver=3.2.0:5
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* Portfolio Gallery CSS */
+
+.gallery {
+    margin-top: 30px;
+}
+
+.gallery {
+    margin: 0 auto 18px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+.centered {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+  }
+
+.mb {
+    margin-bottom: 80px;
+}
+
+.mt {
+    margin-top: 80px;
+}
+
+
+div {
+    display: block;
+}
+
+/* Images CSS */
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
