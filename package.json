@@ -1,0 +1,23 @@
+{
+  "name": "phils-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server/app.js",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philgebauer/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philgebauer/portfolio/issues"
+  },
+  "homepage": "https://github.com/philgebauer/portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

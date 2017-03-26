@@ -1,39 +1,19 @@
-/* Nav Bar Styling */
-
-.nav {
-  display: block;
-}
-
-.navbar-brand {
-	font-weight: 700;
-}
-
-.navbar-default .navbar-brand {
-	color: #1abc9c;
-}
-
-.navbar-default {
-	background-color: rgba(80, 89, 113, 0.47);
-	border-color: transparent;
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #1abc9c;
-	background-color: transparent;
-	border-bottom: 2px solid #1abc9c
-}
-
-.navbar-default .navbar-nav > li > a {
-	color: #1abc9c;
-}
-
-/* Header Layout and Styling */
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
     color: #4a4a4a;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Header Layout and Styling */
 
 #headerwrap {
 	background: url(../assets/images/back.jpg) no-repeat center top;
@@ -70,6 +50,36 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap h4 {
 	font-weight: 400;
 	color: #ffffff
+}
+
+
+/* Nav Bar Styling */
+
+.nav {
+  display: block;
+}
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+.navbar-default .navbar-brand {
+	color: #1abc9c;
+}
+
+.navbar-default {
+	background-color: rgba(80, 89, 113, 0.47);
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #1abc9c;
+	background-color: transparent;
+	border-bottom: 2px solid #1abc9c
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #1abc9c;
 }
 
 /* Container CSS */
@@ -168,4 +178,42 @@ img {
 #footerwrap p {
 	color: #f2f2f2;
 	margin-left: 10px;
+}
+
+
+/* Project Pages */
+
+#workwrap {
+	background: url(../assets/images/back.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#workwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#workwrap h4 {
+	font-weight: 400;
+	color: #ffffff
 }
