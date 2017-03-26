@@ -17,7 +17,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
     .when('/fitvid', {
       templateUrl: '../public/views/fitvid.html',
       controller: 'FitvidController',
-      controllerAs: 'classes'
+      controllerAs: 'fitvid'
     })
     .when('/stem', {
       templateUrl: '../public/views/stementor.html',
@@ -29,7 +29,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'EandtController',
       controllerAs: 'eandt'
     })
-
+    .when('/pbf', {
+      templateUrl: '../public/views/personal-best-fitness.html',
+      controller: 'PbfController',
+      controllerAs: 'pbf'
+    })
     .otherwise({
       redirectTo: '/projects'
     });//End route
