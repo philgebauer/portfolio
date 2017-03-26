@@ -34,6 +34,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'PbfController',
       controllerAs: 'pbf'
     })
+    .when('/aboutme', {
+      templateUrl: '../public/views/about.html',
+      controller: 'AboutController',
+      controllerAs: 'about'
+    })
     .otherwise({
       redirectTo: '/projects'
     });//End route
