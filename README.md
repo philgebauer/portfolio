@@ -1,3 +1,4 @@
-# Portfolio - Check it out at -> www.phil-gebauer.com
+# Portfolio 
 
-## 
+## Check it out at -> www.phil-gebauer.com
+
